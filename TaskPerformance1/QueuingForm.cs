@@ -18,6 +18,8 @@ namespace TaskPerformance1
         {
             InitializeComponent();
             cashier = new CashierClass();
+            CashierWindowQueueForm cash = new CashierWindowQueueForm();
+            cash.Show();
         }
 
         private void QueuingForm_Load(object sender, EventArgs e)
@@ -53,6 +55,8 @@ namespace TaskPerformance1
                 return CashierNumber;
             }
         }
+
+        
     }
 
 

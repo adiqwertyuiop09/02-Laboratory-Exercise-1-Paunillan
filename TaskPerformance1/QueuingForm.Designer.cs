@@ -36,11 +36,12 @@
             // 
             // cashierbtn
             // 
-            this.cashierbtn.BackColor = System.Drawing.Color.Salmon;
+            this.cashierbtn.BackColor = System.Drawing.Color.GhostWhite;
+            this.cashierbtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cashierbtn.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.cashierbtn.Location = new System.Drawing.Point(184, 73);
+            this.cashierbtn.Location = new System.Drawing.Point(122, 103);
             this.cashierbtn.Name = "cashierbtn";
-            this.cashierbtn.Size = new System.Drawing.Size(89, 95);
+            this.cashierbtn.Size = new System.Drawing.Size(114, 121);
             this.cashierbtn.TabIndex = 0;
             this.cashierbtn.Text = "Cashier";
             this.cashierbtn.UseVisualStyleBackColor = false;
@@ -49,31 +50,31 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(295, 41);
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(240, 38);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(150, 20);
+            this.label1.Size = new System.Drawing.Size(330, 42);
             this.label1.TabIndex = 1;
             this.label1.Text = "Position in Queue";
             // 
             // lblQueue
             // 
             this.lblQueue.AutoSize = true;
-            this.lblQueue.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblQueue.Location = new System.Drawing.Point(349, 109);
+            this.lblQueue.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblQueue.Location = new System.Drawing.Point(317, 148);
             this.lblQueue.Name = "lblQueue";
-            this.lblQueue.Size = new System.Drawing.Size(44, 20);
+            this.lblQueue.Size = new System.Drawing.Size(27, 37);
             this.lblQueue.TabIndex = 2;
-            this.lblQueue.Text = "TBU";
+            this.lblQueue.Text = ".";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.ForeColor = System.Drawing.Color.Red;
-            this.label3.Location = new System.Drawing.Point(168, 180);
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.Color.Firebrick;
+            this.label3.Location = new System.Drawing.Point(101, 237);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(133, 13);
+            this.label3.Size = new System.Drawing.Size(158, 16);
             this.label3.TabIndex = 3;
             this.label3.Text = "*Click to get a number";
             // 
@@ -81,8 +82,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.ActiveBorder;
-            this.ClientSize = new System.Drawing.Size(660, 258);
+            this.BackColor = System.Drawing.SystemColors.GrayText;
+            this.ClientSize = new System.Drawing.Size(633, 356);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.lblQueue);
             this.Controls.Add(this.label1);
